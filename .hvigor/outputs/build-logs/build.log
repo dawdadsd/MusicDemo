@@ -1,0 +1,272 @@
+[2024-11-14T21:59:53.986] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-11-14T21:59:54.543] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-11-14T21:59:54.571] [DEBUG] debug-file - hvigorfile, resolving C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\hvigorfile.ts
+[2024-11-14T21:59:56.818] [DEBUG] debug-file - hvigorfile, require result:  { appTasks: [Getter] }
+[2024-11-14T21:59:57.011] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-11-14T21:59:57.034] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2024-11-14T21:59:57.039] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2024-11-14T21:59:57.019] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-11-14T21:59:57.051] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2024-11-14T21:59:57.077] [DEBUG] debug-file - Sdk init in 49 ms 
+[2024-11-14T21:59:57.115] [DEBUG] debug-file - Project task initialization takes 36 ms 
+[2024-11-14T21:59:57.128] [DEBUG] debug-file - hvigorfile, resolving C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\products\phone\hvigorfile.ts
+[2024-11-14T21:59:57.148] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=phone, buildMode=debug
+[2024-11-14T21:59:57.156] [DEBUG] debug-file - Module phone task initialization takes 5 ms 
+[2024-11-14T21:59:57.170] [DEBUG] debug-file - hvigorfile, resolving C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\features\musicList\hvigorfile.ts
+[2024-11-14T21:59:57.224] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=musicList, buildMode=debug
+[2024-11-14T21:59:57.229] [DEBUG] debug-file - Module musicList task initialization takes 2 ms 
+[2024-11-14T21:59:57.242] [DEBUG] debug-file - hvigorfile, resolving C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\features\musicComment\hvigorfile.ts
+[2024-11-14T21:59:57.256] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=musicComment, buildMode=debug
+[2024-11-14T21:59:57.259] [DEBUG] debug-file - Module musicComment task initialization takes 1 ms 
+[2024-11-14T21:59:57.272] [DEBUG] debug-file - hvigorfile, resolving C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\features\live\hvigorfile.ts
+[2024-11-14T21:59:57.285] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=live, buildMode=debug
+[2024-11-14T21:59:57.289] [DEBUG] debug-file - Module live task initialization takes 1 ms 
+[2024-11-14T21:59:57.302] [DEBUG] debug-file - hvigorfile, resolving C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\common\mediaCommon\hvigorfile.ts
+[2024-11-14T21:59:57.316] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=mediaCommon, buildMode=debug
+[2024-11-14T21:59:57.319] [DEBUG] debug-file - Module mediaCommon task initialization takes 1 ms 
+[2024-11-14T21:59:57.332] [DEBUG] debug-file - hvigorfile, resolving C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\common\constantsCommon\hvigorfile.ts
+[2024-11-14T21:59:57.348] [DEBUG] debug-file - Module constantsCommon task initialization takes 1 ms 
+[2024-11-14T21:59:57.345] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=constantsCommon, buildMode=debug
+[2024-11-14T21:59:57.352] [DEBUG] debug-file - project has submodules:phone,musicList,musicComment,live,mediaCommon,constantsCommon
+[2024-11-14T21:59:57.423] [DEBUG] debug-file - Configuration task cost before running: 2 s 935 ms 
+[2024-11-14T21:59:57.427] [DEBUG] debug-file - Executing task :phone:clean
+[2024-11-14T21:59:57.432] [DEBUG] debug-file - phone : clean cost memory 0.22180938720703125
+[2024-11-14T21:59:57.437] [DEBUG] debug-file - Executing task :musicList:clean
+[2024-11-14T21:59:57.442] [DEBUG] debug-file - musicList : clean cost memory 0.21816253662109375
+[2024-11-14T21:59:57.450] [DEBUG] debug-file - musicComment : clean cost memory 0.21239471435546875
+[2024-11-14T21:59:57.446] [DEBUG] debug-file - Executing task :musicComment:clean
+[2024-11-14T21:59:57.454] [DEBUG] debug-file - Executing task :live:clean
+[2024-11-14T21:59:57.458] [DEBUG] debug-file - live : clean cost memory 0.2120361328125
+[2024-11-14T21:59:57.461] [DEBUG] debug-file - Executing task :mediaCommon:clean
+[2024-11-14T21:59:57.465] [DEBUG] debug-file - mediaCommon : clean cost memory 0.2123260498046875
+[2024-11-14T21:59:57.469] [DEBUG] debug-file - Executing task :constantsCommon:clean
+[2024-11-14T21:59:57.473] [DEBUG] debug-file - constantsCommon : clean cost memory 0.21231842041015625
+[2024-11-14T21:59:53.988] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '5.0.0', dependencies: {} }
+[2024-11-14T21:59:57.493] [DEBUG] debug-file - Module 'phone' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-11-14T21:59:57.532] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-11-14T21:59:54.545] [DEBUG] debug-file - Since current hvigor version 5.8.9 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2024-11-14T21:59:56.819] [DEBUG] debug-file - hvigorfile, binding system plugins { appTasks: [Getter] }
+[2024-11-14T21:59:57.012] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-11-14T21:59:57.027] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-11-14T21:59:57.115] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\hvigorfile.ts
+[2024-11-14T21:59:57.134] [DEBUG] debug-file - hvigorfile, require result:  { hapTasks: [Getter] }
+[2024-11-14T21:59:57.148] [DEBUG] debug-file - Target 'default' config: {}
+[2024-11-14T21:59:57.156] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\products\phone\hvigorfile.ts
+[2024-11-14T21:59:57.180] [DEBUG] debug-file - hvigorfile, require result:  [Function: harTasks]
+[2024-11-14T21:59:57.224] [DEBUG] debug-file - Target 'default' config: {}
+[2024-11-14T21:59:57.229] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\features\musicList\hvigorfile.ts
+[2024-11-14T21:59:57.247] [DEBUG] debug-file - hvigorfile, require result:  [Function: harTasks]
+[2024-11-14T21:59:57.256] [DEBUG] debug-file - Target 'default' config: {}
+[2024-11-14T21:59:57.259] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\features\musicComment\hvigorfile.ts
+[2024-11-14T21:59:57.277] [DEBUG] debug-file - hvigorfile, require result:  [Function: harTasks]
+[2024-11-14T21:59:57.285] [DEBUG] debug-file - Target 'default' config: {}
+[2024-11-14T21:59:57.289] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\features\live\hvigorfile.ts
+[2024-11-14T21:59:57.307] [DEBUG] debug-file - hvigorfile, require result:  { harTasks: [Getter] }
+[2024-11-14T21:59:57.316] [DEBUG] debug-file - Target 'default' config: {}
+[2024-11-14T21:59:57.320] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\common\mediaCommon\hvigorfile.ts
+[2024-11-14T21:59:57.336] [DEBUG] debug-file - hvigorfile, require result:  { harTasks: [Getter] }
+[2024-11-14T21:59:57.349] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\xubei\Desktop\MusicDemo\MusicHome-master\common\constantsCommon\hvigorfile.ts
+[2024-11-14T21:59:57.345] [DEBUG] debug-file - Target 'default' config: {}
+[2024-11-14T21:59:57.353] [DEBUG] debug-file - module:musicList no need to execute packageHap
+[2024-11-14T21:59:57.428] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-11-14T21:59:57.432] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 944 ms 
+[2024-11-14T21:59:57.437] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-11-14T21:59:57.442] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 954 ms 
+[2024-11-14T21:59:57.450] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 962 ms 
+[2024-11-14T21:59:57.446] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-11-14T21:59:57.454] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-11-14T21:59:57.458] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 969 ms 
+[2024-11-14T21:59:57.461] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-11-14T21:59:57.465] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 977 ms 
+[2024-11-14T21:59:57.469] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-11-14T21:59:57.473] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 984 ms 
+[2024-11-14T21:59:53.990] [DEBUG] debug-file - env: daemon=false
+[2024-11-14T21:59:57.498] [DEBUG] debug-file - Module 'musicList' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-11-14T21:59:57.534] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2024-11-14T21:59:54.545] [DEBUG] debug-file - Cache service initialization finished in 3 ms 
+[2024-11-14T21:59:57.012] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-11-14T21:59:57.134] [DEBUG] debug-file - hvigorfile, binding system plugins { hapTasks: [Getter] }
+[2024-11-14T21:59:57.148] [DEBUG] debug-file - Module 'phone' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-11-14T21:59:57.180] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: harTasks]
+[2024-11-14T21:59:57.224] [DEBUG] debug-file - Module 'musicList' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-11-14T21:59:57.247] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: harTasks]
+[2024-11-14T21:59:57.256] [DEBUG] debug-file - Module 'musicComment' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-11-14T21:59:57.277] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: harTasks]
+[2024-11-14T21:59:57.285] [DEBUG] debug-file - Module 'live' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-11-14T21:59:57.307] [DEBUG] debug-file - hvigorfile, binding system plugins { harTasks: [Getter] }
+[2024-11-14T21:59:57.316] [DEBUG] debug-file - Module 'mediaCommon' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-11-14T21:59:57.336] [DEBUG] debug-file - hvigorfile, binding system plugins { harTasks: [Getter] }
+[2024-11-14T21:59:57.345] [DEBUG] debug-file - Module 'constantsCommon' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-11-14T21:59:57.353] [DEBUG] debug-file - module:musicComment no need to execute packageHap
+[2024-11-14T21:59:57.433] [INFO] debug-file - Finished :phone:clean... after 6 ms 
+[2024-11-14T21:59:57.443] [INFO] debug-file - Finished :musicList:clean... after 6 ms 
+[2024-11-14T21:59:57.450] [INFO] debug-file - Finished :musicComment:clean... after 4 ms 
+[2024-11-14T21:59:57.458] [INFO] debug-file - Finished :live:clean... after 4 ms 
+[2024-11-14T21:59:57.465] [INFO] debug-file - Finished :mediaCommon:clean... after 4 ms 
+[2024-11-14T21:59:57.473] [INFO] debug-file - Finished :constantsCommon:clean... after 5 ms 
+[2024-11-14T21:59:53.990] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2024-11-14T21:59:57.503] [DEBUG] debug-file - Module 'musicComment' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-11-14T21:59:57.536] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2024-11-14T21:59:57.012] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-11-14T21:59:57.148] [DEBUG] debug-file - End initialize module-target build option map, moduleName=phone
+[2024-11-14T21:59:57.224] [DEBUG] debug-file - End initialize module-target build option map, moduleName=musicList
+[2024-11-14T21:59:57.256] [DEBUG] debug-file - End initialize module-target build option map, moduleName=musicComment
+[2024-11-14T21:59:57.285] [DEBUG] debug-file - End initialize module-target build option map, moduleName=live
+[2024-11-14T21:59:57.316] [DEBUG] debug-file - End initialize module-target build option map, moduleName=mediaCommon
+[2024-11-14T21:59:57.345] [DEBUG] debug-file - End initialize module-target build option map, moduleName=constantsCommon
+[2024-11-14T21:59:57.353] [DEBUG] debug-file - module:live no need to execute packageHap
+[2024-11-14T21:59:57.473] [DEBUG] debug-file - Executing task ::clean
+[2024-11-14T21:59:57.508] [DEBUG] debug-file - Module 'live' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-11-14T21:59:57.536] [DEBUG] debug-file - Clear worker 0.
+[2024-11-14T21:59:57.149] [DEBUG] debug-file - Module 'phone' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-11-14T21:59:57.224] [DEBUG] debug-file - Module 'musicList' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-11-14T21:59:57.256] [DEBUG] debug-file - Module 'musicComment' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-11-14T21:59:57.285] [DEBUG] debug-file - Module 'live' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-11-14T21:59:57.316] [DEBUG] debug-file - Module 'mediaCommon' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-11-14T21:59:57.345] [DEBUG] debug-file - Module 'constantsCommon' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-11-14T21:59:57.353] [DEBUG] debug-file - module:mediaCommon no need to execute packageHap
+[2024-11-14T21:59:57.473] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-11-14T21:59:57.536] [DEBUG] debug-file - Worker 0 has been cleared.
+[2024-11-14T21:59:57.513] [DEBUG] debug-file - Module 'mediaCommon' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-11-14T21:59:57.353] [DEBUG] debug-file - module:constantsCommon no need to execute packageHap
+[2024-11-14T21:59:57.474] [DEBUG] debug-file - MusicHome-master : clean cost memory 0.0267791748046875
+[2024-11-14T21:59:57.536] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-11-14T21:59:57.517] [DEBUG] debug-file - Module 'constantsCommon' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-11-14T21:59:57.354] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-11-14T21:59:57.474] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 985 ms 
+[2024-11-14T21:59:57.536] [DEBUG] debug-file - Current busy worker size: 0.
+[2024-11-14T21:59:57.523] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: false,
+  _: [],
+  analyze: 'normal'
+}
+[2024-11-14T21:59:57.369] [DEBUG] debug-file - load to the disk finished
+[2024-11-14T21:59:57.474] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2024-11-14T21:59:57.374] [DEBUG] debug-file - Module MusicHome-master Collected Dependency: 
+[2024-11-14T21:59:57.536] [DEBUG] debug-file - Clear worker 1.
+[2024-11-14T21:59:57.528] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-11-14T21:59:57.474] [DEBUG] debug-file - Executing task :phone:init
+[2024-11-14T21:59:57.374] [DEBUG] debug-file - Module MusicHome-master's total dependency: 0
+[2024-11-14T21:59:57.528] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-11-14T21:59:57.474] [DEBUG] debug-file - phone : init cost memory 0.01007843017578125
+[2024-11-14T21:59:57.536] [DEBUG] debug-file - Worker 1 has been cleared.
+[2024-11-14T21:59:57.382] [DEBUG] debug-file - Module phone Collected Dependency: 
+[2024-11-14T21:59:57.474] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 986 ms 
+[2024-11-14T21:59:57.536] [DEBUG] debug-file - Current idle worker size: 0.
+[2024-11-14T21:59:57.382] [DEBUG] debug-file - Module phone's total dependency: 0
+[2024-11-14T21:59:57.474] [INFO] debug-file - Finished :phone:init... after 1 ms 
+[2024-11-14T21:59:57.536] [DEBUG] debug-file - Current busy worker size: 0.
+[2024-11-14T21:59:57.391] [DEBUG] debug-file - Module musicList Collected Dependency: 
+[2024-11-14T21:59:57.474] [DEBUG] debug-file - Executing task :musicList:init
+[2024-11-14T21:59:57.538] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-11-14T21:59:57.391] [DEBUG] debug-file - Module musicList's total dependency: 0
+[2024-11-14T21:59:57.475] [DEBUG] debug-file - musicList : init cost memory 0.00798797607421875
+[2024-11-14T21:59:57.542] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2024-11-14T21:59:57.401] [DEBUG] debug-file - Module musicComment Collected Dependency: 
+[2024-11-14T21:59:57.475] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 986 ms 
+[2024-11-14T21:59:57.542] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2024-11-14T21:59:57.401] [DEBUG] debug-file - Module musicComment's total dependency: 0
+[2024-11-14T21:59:57.475] [INFO] debug-file - Finished :musicList:init... after 1 ms 
+[2024-11-14T21:59:57.543] [DEBUG] debug-file - Current worker pool is terminated.
+[2024-11-14T21:59:57.406] [DEBUG] debug-file - Module live Collected Dependency: 
+[2024-11-14T21:59:57.475] [DEBUG] debug-file - Executing task :musicComment:init
+[2024-11-14T21:59:57.406] [DEBUG] debug-file - Module live's total dependency: 0
+[2024-11-14T21:59:57.475] [DEBUG] debug-file - musicComment : init cost memory 0.00799560546875
+[2024-11-14T21:59:57.411] [DEBUG] debug-file - Module mediaCommon Collected Dependency: 
+[2024-11-14T21:59:57.475] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 986 ms 
+[2024-11-14T21:59:57.411] [DEBUG] debug-file - Module mediaCommon's total dependency: 0
+[2024-11-14T21:59:57.475] [INFO] debug-file - Finished :musicComment:init... after 1 ms 
+[2024-11-14T21:59:57.416] [DEBUG] debug-file - Module constantsCommon Collected Dependency: 
+[2024-11-14T21:59:57.475] [DEBUG] debug-file - Executing task :live:init
+[2024-11-14T21:59:57.416] [DEBUG] debug-file - Module constantsCommon's total dependency: 0
+[2024-11-14T21:59:57.475] [DEBUG] debug-file - live : init cost memory 0.00798797607421875
+[2024-11-14T21:59:57.418] [DEBUG] debug-file - Configuration phase cost:2 s 863 ms 
+[2024-11-14T21:59:57.475] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 987 ms 
+[2024-11-14T21:59:57.475] [INFO] debug-file - Finished :live:init... after 1 ms 
+[2024-11-14T21:59:57.476] [DEBUG] debug-file - Executing task :mediaCommon:init
+[2024-11-14T21:59:57.476] [DEBUG] debug-file - mediaCommon : init cost memory 0.00801849365234375
+[2024-11-14T21:59:57.476] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 987 ms 
+[2024-11-14T21:59:57.476] [INFO] debug-file - Finished :mediaCommon:init... after 1 ms 
+[2024-11-14T21:59:57.476] [DEBUG] debug-file - Executing task :constantsCommon:init
+[2024-11-14T21:59:57.476] [DEBUG] debug-file - constantsCommon : init cost memory 0.00799560546875
+[2024-11-14T21:59:57.476] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 987 ms 
+[2024-11-14T21:59:57.476] [INFO] debug-file - Finished :constantsCommon:init... after 1 ms 
+[2024-11-14T21:59:57.476] [DEBUG] debug-file - Executing task ::init
+[2024-11-14T21:59:57.476] [DEBUG] debug-file - MusicHome-master : init cost memory 0.00937652587890625
+[2024-11-14T21:59:57.476] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 988 ms 
+[2024-11-14T21:59:57.476] [INFO] debug-file - Finished ::init... after 1 ms 
